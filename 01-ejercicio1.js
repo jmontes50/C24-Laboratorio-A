@@ -14,13 +14,15 @@ const calcularPresupuesto = (cantPersonas) => {
     if (cantPersonas > 300) {
         costo = 75;
         //cuando se ejecuta un return, este me termina la ejecución de la función
-        return cantPersonas * costo;
+        // return cantPersonas * costo;
     } else if (cantPersonas > 200) {
         costo = 85;
-        return cantPersonas * costo;
-    } else {
-        return cantPersonas * costo;
+        // return cantPersonas * costo;
     }
+    //  else {
+    //     return cantPersonas * costo;
+    // }
+    return cantPersonas * costo;
 };
 //parseInt()
 //parseFloat()
