@@ -49,5 +49,5 @@ for (let i = 0; i < alumnosNotas.length; i++) {
     // backtick `` son equivalentes "" ''
     //si deseo agregar JS, usaremos ${codigo_js}
     //template string
-    console.log(`Alumn@ ${alumnosNotas[i].nombre}`);
+    console.log(`Alumn@ ${alumnosNotas[i].nombre} y su nota es: ${alumnosNotas[i].nota}`);
 }
